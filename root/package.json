@@ -1,18 +1,30 @@
 {
-  "name": "yt-share-play",
+  "name": "music-share-play",
   "version": "0.0.0",
   "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "serve": "vite serve --host 192.168.0.16"
   },
   "dependencies": {
-    "vue": "^3.3.11"
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@fortawesome/free-regular-svg-icons": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/vue-fontawesome": "^3.0.8",
+    "assemblyai": "^4.6.0",
+    "axios": "^1.7.2",
+    "vue": "^3.5.1",
+    "vue-cli-service": "^5.0.10",
+    "vue-youtube-embed": "^2.2.2",
+    "vuedraggable": "^4.1.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^4.5.2",
-    "vite": "^5.0.10"
+    "@vitejs/plugin-vue": "^5.0.3",
+    "@vue/compiler-sfc": "^3.5.1",
+    "vite": "^5.0.11"
   }
 }
